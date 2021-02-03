@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #605f59;
+}
+
+/* Gray meeting Color Palette color-hex.com */
+h1 {
+  color: #cfc8b9;
+  margin: 10px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Asap', sans-serif;
+}
+
+p {
+  color: #cfc8b9;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Asap', sans-serif;
+}
+
+button {
+  background-color: #8e1d08;
+  color: #fef4e2;
+  padding: 28px;
+  width: 400px;
+  font-size: 28px;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  border: 1px solid #723d0a;
+  border-radius: 10px;
+  font-family: 'Asap', sans-serif;
+}
+
+form {
+  display: flex;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
