@@ -47,5 +47,9 @@ form {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+#advice {
+  margin-top: 50px;
 }
