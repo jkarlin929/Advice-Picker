@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Asap', sans-serif;
 }
 
 body {
@@ -14,14 +15,12 @@ h1 {
   margin: 10px;
   text-align: center;
   font-size: 48px;
-  font-family: 'Asap', sans-serif;
 }
 
 p {
   color: #cfc8b9;
   text-align: center;
   font-size: 22px;
-  font-family: 'Asap', sans-serif;
 }
 
 button {
@@ -35,7 +34,6 @@ button {
   align-items: flex-start;
   border: 1px solid #723d0a;
   border-radius: 10px;
-  font-family: 'Asap', sans-serif;
 }
 
 form {
