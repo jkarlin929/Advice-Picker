@@ -7,11 +7,11 @@ function getResults() {
     .then(function(data) {
       // console.log(data)
       for (const [key, value] of Object.entries(data)) {
-        // console.log(data.slip.advice);
         const adviceSlip = `${data.slip.advice}`;
         let adviceTag = document.querySelector('#advice');
         adviceTag.style.color = "#cfc8b9";
-        adviceTag.innerHTML = adviceSlip
+        adviceTag.innerHTML = adviceSlip;
+
       }
     })
     .catch(function(e) {

@@ -10,11 +10,10 @@ body {
 }
 
 /* Gray meeting Color Palette color-hex.com */
-h1 {
+h1, h2 {
   color: #cfc8b9;
   margin: 10px;
   text-align: center;
-  font-size: 48px;
 }
 
 p {
@@ -36,18 +35,28 @@ button {
   border-radius: 10px;
 }
 
-form {
-  display: flex;
-}
-
-.form-container {
+.button-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding-top: 50px;
 }
 
 #advice {
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  button {
+    width: 300px;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+
+  #noButton {
+    margin-top: 10px;
+  }
 }
