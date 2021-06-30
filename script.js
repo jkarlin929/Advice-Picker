@@ -26,8 +26,6 @@ function yesResults() {
   });
 };
 
-yesResults();
-
 function noResults() {
   const noButton = document.querySelector('#no-button');
   noButton.addEventListener("click", function(e) {
@@ -35,10 +33,12 @@ function noResults() {
     let adviceTag = document.querySelector('#advice');
     let count = 0;
     adviceTag.style.color = "#FEF535";
-    adviceTag.innerHTML = "Are you sure?"
+    let noAnswers = ["Then why are you here?", "Come on, click Yes, you won't regret it", "Are you sure about that?", "Take a minute to think that over and maybe you'll change your mind.", "I think you should reconsider, but what do I know?"];
+    var item = noAnswers[Math.floor(Math.random() * noAnswers.length)];
+    adviceTag.innerHTML = item
   });
 };
-
+yesResults();
 noResults();
 
 
