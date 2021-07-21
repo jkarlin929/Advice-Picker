@@ -1,4 +1,4 @@
-// javascript goes here
+
 const URL = "https://api.adviceslip.com/advice";
 
 function getResults() {
