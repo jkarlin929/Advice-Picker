@@ -5,35 +5,39 @@
 }
 
 body {
-  background-color: #7289da;
+  background-color: #23272a;
   font-family: 'Asap', sans-serif;
 }
 
-/* Gray meeting Color Palette color-hex.com */
+h1 {
+  font-size: 40px;
+}
+
 h1, h2 {
   color: #ffffff;
-  margin: 10px;
+  padding: 10px;
   text-align: center;
 }
 
 p {
   color: #ffffff;
   text-align: center;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 button {
   display: block;
-  background-color: #99aab5;
+  background-color: #7289da;
   color: #ffffff;
   padding: 28px;
   width: 400px;
-  font-size: 28px;
+  font-size: 36px;
   justify-content: space-between;
   flex-flow: row nowrap;
   align-items: flex-start;
   border: 1px solid #23272a;
   border-radius: 10px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .button-container {
@@ -41,15 +45,19 @@ button {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  padding-top: 50px;
 }
 
 .nav {
   background-color: #2c2f33;
 }
 
+/* .advice-container {
+  max-height: 150px;
+} */
+
 #advice {
-  margin-top: 50px;
+  height: 75px;
+  padding-top: 50px;
 }
 
 #reset-button {

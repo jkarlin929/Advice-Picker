@@ -56,7 +56,7 @@ function noResults() {
   noButton.addEventListener("click", function(e) {
     let adviceTag = document.querySelector('#advice');
     let count = 0;
-    adviceTag.style.color = "#23272a";
+    adviceTag.style.color = "#ffffff";
     let noAnswers = ["Then why are you here?", "Come on, you won't regret it", "You should start over.", "Are you sure about that?", "Take a minute to think that over and maybe you'll change your mind.", "I think you should reconsider, but what do I know?"];
     var item = noAnswers[Math.floor(Math.random() * noAnswers.length)];
     adviceTag.innerHTML = item
