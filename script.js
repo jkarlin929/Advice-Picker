@@ -8,7 +8,7 @@ function getResults() {
       for (const [key, value] of Object.entries(data)) {
         const adviceSlip = `${data.slip.advice}`;
         let adviceTag = document.querySelector('#advice');
-        adviceTag.style.color = "#cfc8b9";
+        adviceTag.style.color = "#ffffff";
         adviceTag.innerHTML = adviceSlip;
       }
     })
@@ -56,7 +56,7 @@ function noResults() {
   noButton.addEventListener("click", function(e) {
     let adviceTag = document.querySelector('#advice');
     let count = 0;
-    adviceTag.style.color = "#FEF535";
+    adviceTag.style.color = "#23272a";
     let noAnswers = ["Then why are you here?", "Come on, you won't regret it", "You should start over.", "Are you sure about that?", "Take a minute to think that over and maybe you'll change your mind.", "I think you should reconsider, but what do I know?"];
     var item = noAnswers[Math.floor(Math.random() * noAnswers.length)];
     adviceTag.innerHTML = item
